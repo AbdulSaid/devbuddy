@@ -1,10 +1,25 @@
-# Create React Express App
+# Dev Buddy
 
-## About This Boilerplate
+## What Is Dev Buddy?
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+Dev Buddy is here for you on your journey to becoming a web developer. Whether you are a complete beginner, have dabbled in coding, or already have a background in it, Dev Buddy is here to help you with a plethora of resources including videos, helpful links, and articles.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+Becoming a web developer has now become a whole lot easier.
+
+## Why Web Development
+
+Web developers are at the forefront of the Internet age. The websites we browse, the gifts we order and the news we peruse online are all made possible by the web developers who design,build and implement Internet websites.
+
+They are heavily involved in website creation, from helping design aesthetic properties such as layout and color, to technical considerations such as how to design a website to handle a given amount of Internet traffic.
+
+## Technologies Used
+
+- Mongo (Database)
+- Express.js
+- React.js
+- Node.js
+- Passport.js (validation)
+- Axios
 
 ## Starting the app locally
 
@@ -24,7 +39,13 @@ yarn start
 
 Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
 
-## Deployment (Heroku)
+## Deployed Site
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
-# create-react-app-express-boilerplate
+https://webdevbuddy.herokuapp.com/
+
+## Authors
+
+[Abdulrahman Said](https://github.com/AbdulSaid)
+[Alejandra Juarez](https://github.com/alejuarez)
+[Ruby Gill](https://github.com/Rubyrgill)
+[Zeinab Farag](https://github.com/zeinabfarag)
