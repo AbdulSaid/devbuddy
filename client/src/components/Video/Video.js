@@ -3,6 +3,8 @@ import axios from "axios";
 
 import "./Video.css";
 
+const api = process.env.REACT_APP_API_KEY
+
 class Video extends Component {
   state = {
     result: []
@@ -21,8 +23,8 @@ class Video extends Component {
     axios
       .get(
         " https://www.googleapis.com/youtube/v3/search?q=" +
-          query +
-          "&maxResults=8&part=snippet&key=AIzaSyBhnZV06WMyj1rsGqLrtgG5EuXDr4SIvu4 "
+        query +
+        "&maxResults=8&part=snippet&key=" + api
       )
       .then(res => {
         let result = res.data.items.map(
